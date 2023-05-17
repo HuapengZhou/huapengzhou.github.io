@@ -23,8 +23,12 @@ hr {
 }
 
 .clustrmaps-container {
-    width: 50%;
-    /* 或者你想要的任何宽度 */
-    height: 50%;
-    /* 或者你想要的任何高度 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* vh is a viewport-relative unit, 100vh is full viewport height */
+    /* text-align: center; */
+    font-size: 30px;
+    /* Change this value to adjust the size */
 }
