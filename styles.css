@@ -1,38 +1,30 @@
 body {
-    font-family: 'Microsoft YaHei', sans-serif;
-    color: #333;
-    background-color: #f5f5f5;
-    padding: 30px;
+    font-family: "Times New Roman", Times, serif;
 }
 
-header {
-    text-align: center;
-}
-
-header h1 {
-    font-size: 3em;
-}
-
-header h2 {
-    font-size: 2em;
-}
-
-#contact-info h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-#contact-info p {
-    margin-left: 10px;
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+hr {
+    border: none;
+    border-top: 2px solid rgb(21, 21, 195);
     width: 100%;
-    text-align: center;
-    padding: 10px 0;
-    background-color: #333;
-    color: #fff;
+}
+
+.intro-container {
+    display: flex;
+}
+
+.profile-image {
+    width: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.profile-description {
+    flex-grow: 1;
+}
+
+.clustrmaps-container {
+    width: 50%;
+    /* 或者你想要的任何宽度 */
+    height: 50%;
+    /* 或者你想要的任何高度 */
 }
